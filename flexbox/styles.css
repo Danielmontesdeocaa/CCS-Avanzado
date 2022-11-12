@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    /* acomodo horizontal */
+    justify-content: space-around;
+    /* Acomodo vertical */
+    align-items: center;
+    /*direccion */
+    flex-flow: row wrap;
+    /* wrap */
+
+
+
+
+    background-color: cornsilk;
+    border: 2px solid black;
+    height: 400px;
+}
+
+.flex-container div {
+    background-color: gainsboro;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.item {
+      order: 1;
+
+
+}
+
+.item {
+      order: 3;
+
+
+}

@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    background-color: cornsilk;
+    gap: 10px;
+    height: 400px;
+
+    /* Cambiar estilos de las columnas */
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    /* align-items: center; */
+
+    /* Cambiar estilos de las filas */
+    grid-template-rows: auto auto auto;
+}
+
+
+.grid-container div {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.item1{ 
+    grid-column: 1/3;
+}
